@@ -1,0 +1,172 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.movie-card-header {
+  align-items: center;
+  background-color: #343a40;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.page-title {
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px 25px;
+}
+
+.movie-card {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 5px;
+  overflow: hidden;
+  width: 300px;
+}
+
+
+.movie-card-image, .movie-details-img {
+  width: 100%;
+}
+
+.movie-card-body {
+  flex: 1 1 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.movie-card-title, .movie-details-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.movie-card-subtitle, .movie-details-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.movie-card-storyline, .movie-details-storyline, .movie-details-genre {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rating {
+  background-color: #007bff;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 9px;
+  text-align: center;
+  width: 50px;
+}
+
+.movie-card-rating {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 20px;
+}
+
+.loading {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.movie-details {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  margin: 5px;
+  overflow: hidden;
+  width: 600px;
+}
+
+.movie-details-rating {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 20px;
+}
+
+.details-rating, .button-delete {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  color: rgb(177, 150, 0);
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 20px;
+}
+
+.movie-details-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input-text {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.input-select {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 10px;
+}
+
+form {
+  width: 650px;
+}
+
+input {
+  width: 500px;
+}
+
+textarea {
+  height: 100px;
+  width: 500px;
+}
+
+.form-style {
+  display: flex;
+  justify-content: center;
+}
+
+.form-style-2 {
+  text-align: center;
+}
+
+.movie-card-detail {
+  bottom: 5px;
+  display: flex;
+  position: absolute;
+}
